@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
       <div className="flex items-center">
-        <img src={Logo} alt="Logo" className="h-20 mr-0.5" /> 
+        <img src={Logo} alt="Logo" className="h-20 mr-4" /> 
         <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Laurier Analytics Society</h1>
       </div>
       <ul className='hidden md:flex'>
@@ -20,7 +20,7 @@ const Navbar = () => {
         <li className='p-4'>Events</li>
         <li className='p-4'>Team</li>
       </ul>
-      <div onClick={handleNav} className='block md:hidden'>
+      <div onClick={handleNav} className='block md:hidden' aria-label="Toggle Navigation Menu">
         {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
       </div>
       <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
