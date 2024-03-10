@@ -7,31 +7,32 @@ import maham from "../assets/maham.png";
 import tasmin from "../assets/tasmin.jpeg";
 import vishal from "../assets/vishal.jpeg";
 import mariana from "../assets/mariana.jpg";
-
+import arya from "../assets/aryaman.jpeg"
+import shaampavi from "../assets/shaampavi.jpeg"
+import giselle from "../assets/giselle.jpeg"
 const MeetTheTeam = () => {
   // Data array containing team member information
   const teamMembers = [
-    { department: 'Executive', position: 'President', title: 'President', name: 'Vishal', imageUrl: vishal },
-    { department: 'Executive', position: 'Vice President', title: 'Vice President', name: 'Leo', imageUrl: "" },
-    { department: 'Executive', position: 'VP of Finance', title: 'Treasurer', name: 'Mariana', imageUrl: mariana },
-    { department: 'Executive', position: 'VP of Events', title: 'Head of Events Management', name: 'Harshita', imageUrl: harshita },
-    { department: 'Executive', position: 'VP of Marketing', title: 'Head of Communications', name: 'Luna', imageUrl: luna },
+    { department: 'Executives', position: 'President', title: 'President', name: 'Vishal', imageUrl: vishal },
+    { department: 'Executives', position: 'Vice President', title: 'Vice President', name: 'Leo', imageUrl: "" },
+    { department: 'Executives', position: 'VP of Finance', title: 'VP of Finance', name: 'Mariana', imageUrl: mariana },
+    { department: 'Executives', position: 'VP of Events', title: 'VP of Events', name: 'Harshita', imageUrl: harshita },
+    { department: 'Executives', position: 'VP of Marketing', title: 'VP of Marketing', name: 'Luna', imageUrl: luna },
     { department: 'Events', position: 'Director', title: 'Events Planner', name: 'Samiyah', imageUrl: "" },
     { department: 'Events', position: 'Director', title: 'Events Planner', name: 'Jason', imageUrl: "" },
     { department: 'Events', position: 'Director', title: 'Events Facilitator', name: 'Tasmin', imageUrl: tasmin },
-    { department: 'Events', position: 'Director', title: 'Events Facilitator', name: 'Shaampavi', imageUrl: "" },
+    { department: 'Events', position: 'Director', title: 'Events Facilitator', name: 'Shaampavi', imageUrl: shaampavi },
     { department: 'Marketing', position: 'Director', title: 'Social Media Manager', name: 'Maham', imageUrl: maham },
-    { department: 'Marketing', position: 'Director', title: 'Community Moderator + LinkedIn', name: 'Carson', imageUrl: "" },
-    { department: 'Marketing', position: 'Director', title: 'Content Creator', name: 'Giselle', imageUrl: "" },
-    { department: 'Marketing', position: 'Director', title: 'Content Creator', name: 'Keana', imageUrl: "" },
+    { department: 'Marketing', position: 'Director', title: 'Community Moderator', name: 'Carson', imageUrl: "" },
+    { department: 'Marketing', position: 'Director', title: 'Content Creation', name: 'Giselle', imageUrl: giselle },
+    { department: 'Marketing', position: 'Director', title: 'Content Creation', name: 'Keana', imageUrl: "" },
     { department: 'Outreach', position: 'Director', title: 'Corporate Relations Manager', name: 'Sufiya', imageUrl: "" },
     { department: 'Outreach', position: 'Director', title: 'Corporate Relations Manager', name: 'Romin', imageUrl: "" },
     { department: 'Outreach', position: 'Director', title: 'Corporate Relations Manager', name: 'Jacob', imageUrl: jacob },
-    { department: 'Web Developer', position: 'Director', title: 'Web Developer', name: 'Aryaman', imageUrl: "" },
-    { department: 'Web Developer', position: 'Director', title: 'Web Developer', name: 'Gurkarman', imageUrl: "" },
-    { department: 'Rotational', position: 'First-Year Rep', title: 'First-Year Rep', name: 'Filip', imageUrl: "" },
-    { department: 'Rotational', position: 'First-Year Rep', title: 'First-Year Rep', name: 'Grace', imageUrl: "" },
-    { department: 'Rotational', position: 'First-Year Rep', title: 'First-Year Rep', name: 'Amber', imageUrl: amber },
+    { department: 'Web Development', position: 'Director', title: 'Web Developer', name: 'Aryaman', imageUrl: arya },
+    { department: 'First-Year Rep', position: 'First-Year Rep', title: 'First-Year Rep', name: 'Filip', imageUrl: "" },
+    { department: 'First-Year Rep', position: 'First-Year Rep', title: 'First-Year Rep', name: 'Grace', imageUrl: "" },
+    { department: 'First-Year Rep', position: 'First-Year Rep', title: 'First-Year Rep', name: 'Amber', imageUrl: amber },
   ];
 
   // Group team members by their departments

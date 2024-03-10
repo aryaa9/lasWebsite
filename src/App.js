@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Events from './components/Events';
 import MeetTheTeam from './components/MeetTheTeam';
 
+
 function App() {
   return (
     <div>
