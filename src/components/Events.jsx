@@ -26,6 +26,16 @@ const Events = () => {
           </p>
           <button className='bg-[#00df9a] text-black w-full rounded-md font-medium my-6 py-3'>Explore Event</button>
         </div>
+         {/* future Event Card template
+         <div className='event-card bg-gray-100 rounded-lg p-6'>
+          <img className='w-full mb-4' src={EventImage} alt='Event Photo' />
+          <p className='text-[#00df9a] font-bold'>UPCOMING EVENT</p>
+          <h2 className='text-xl font-bold py-2'>Event Name</h2>
+          <p className='text-gray-700'>
+            No scheduled Events for now, Come back later 👨‍💻👨‍💻
+          </p>
+          <button className='bg-[#00df9a] text-black w-full rounded-md font-medium my-6 py-3'>Explore Event</button>
+        </div> */}
       </div>
     </div>
   );
