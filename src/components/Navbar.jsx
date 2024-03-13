@@ -18,7 +18,7 @@ const Navbar = () => {
       <ul className='hidden md:flex'>
         <li className='p-4'>Home</li>
         <li className='p-4'>Events</li>
-        <li className='p-4'>Team</li>
+        <li className='p-4'>Meet the Team</li>
       </ul>
       <div onClick={handleNav} className='block md:hidden' aria-label="Toggle Navigation Menu">
         {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
