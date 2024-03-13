@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-import Logo from '../assets/logo.png'; // Import your logo image
+import Logo from '../assets/LASLogo.jpg'; // Import your logo image
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
