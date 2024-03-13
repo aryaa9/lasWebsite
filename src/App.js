@@ -1,4 +1,3 @@
-// App.js
 import React from 'react';
 import Navbar from './components/Navbar';
 import Newsletter from './components/Newsletter';
@@ -7,19 +6,23 @@ import Footer from './components/Footer';
 import Events from './components/Events';
 import MeetTheTeam from './components/MeetTheTeam';
 
-
 function App() {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <div className="main-content">
-        <Analytics/>
-        <Events/>
-      
-      <MeetTheTeam />
+        <section id="home">
+          <Analytics />
+        </section>
+        <section id="events">
+          <Events />
+        </section>
+        <section id="team">
+          <MeetTheTeam />
+        </section>
       </div>
-      <Newsletter/>
-      <Footer/>
+      <Newsletter />
+      <Footer />
     </div>
   );
 }
